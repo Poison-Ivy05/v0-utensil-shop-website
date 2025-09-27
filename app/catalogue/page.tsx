@@ -12,7 +12,7 @@ const products = [
     alt: "Kanhaiya Ji brass idol",
     url: "/kanhaiya.jpg",
   },
-}
+},
   {
     id: "diya-hold-1",
     title: "Diya holder with diya",
@@ -84,7 +84,7 @@ const products = [
     alt: "Kadhai set",
     url: "/kadhai-set.jpg",
   },
-}
+},
   {
     id: "appe-pan",
     title: "Appe Pan",
@@ -180,7 +180,7 @@ const products = [
     alt: "Pan set",
     url: "/pan-set.jpeg",
   },
-}
+},
   {
     id: "copper-lota",
     title: "Copper Lota",
