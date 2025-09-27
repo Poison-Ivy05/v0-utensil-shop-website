@@ -2,6 +2,30 @@ import { ProductCard } from "@/components/product-card"
 
 const products = [
   {
+  id: "kanhaiya",
+  title: "Kanhaiya Ji Idol",
+  material: "Brass",
+  description: "Beautifully crafted brass idol of Kanhaiya Ji, available in multiple sizes for home decor and worship.",
+  image: {
+    width: 800,
+    height: 600,
+    alt: "Kanhaiya Ji brass idol",
+    url: "/kanhaiya.jpg",
+  },
+}
+  {
+    id: "diya-hold-1",
+    title: "Diya holder with diya",
+    material: "Brass",
+    description: "Traditional brass diya holder designed for festive and spiritual decor.",
+    image: {
+      width: 800,
+      height: 600,
+      alt: "diya hold.",
+      url: "/diya-hold-1.jpg",
+    },
+  },
+  {
     id: "brass-thali",
     title: "Brass Pooja Thali Set",
     material: "Brass",
@@ -26,6 +50,54 @@ const products = [
     },
   },
   {
+  id: "brass-embroider-glass",
+  title: "Brass Embroider Glass",
+  material: "Brass",
+  description: "Handcrafted brass glass with intricate embroidery-style etching.",
+  image: {
+    width: 800,
+    height: 600,
+    alt: "Brass embroider glass",
+    url: "/brass-embroider-glass.jpg",
+  },
+},
+{
+  id: "borosil-bottles",
+  title: "Borosil Bottles",
+  material: "Stainless Steel",
+  description: "Elegant borosil bottles, crafted to ensure the water inside retains a pure, clean taste with no chemical leaching.",
+  image: {
+    width: 800,
+    height: 600,
+    alt: "Borosil bottles",
+    url: "/borosil-bottles.jpg",
+  },
+},
+{
+  id: "kadhai-set",
+  title: "Kadhai Set",
+  material: "Hard Anodized Aluminum",
+  description: "Multi-size kadhai set for deep frying and Indian cooking.",
+  image: {
+    width: 800,
+    height: 600,
+    alt: "Kadhai set",
+    url: "/kadhai-set.jpg",
+  },
+}
+  {
+    id: "appe-pan",
+    title: "Appe Pan",
+    material: "Cast Iron",
+    description: "Simultaneously cooking of 4 to 12 appams.",
+    image: {
+      width: 800,
+      height: 600,
+      alt: "Appe Pan",
+      url: "/appe-pan.jpeg",
+    },
+  },
+  {
     id: "steel-dinner",
     title: "Steel Dinner Set",
     material: "Steel",
@@ -35,6 +107,30 @@ const products = [
       height: 600,
       alt: "Steel dinner set",
       url: "/stainless-steel-dinner-set-neatly-arranged.jpg",
+    },
+  },
+  {
+    id: "brass-dinner-set",
+    title: "Brass Dinner Set",
+    material: "Brass",
+    description: "Durable brass dinner set for everyday family meals.",
+    image: {
+      width: 800,
+      height: 600,
+      alt: "Brass dinner set",
+      url: "/brass-dinner-set.jpeg",
+    },
+  },
+  {
+    id: "mixer-grinder-set",
+    title: "Mixer Grinder Set",
+    material: "Stainless Steel",
+    description: "Simplifies cooking tasks like grinding, blending, and pureeing",
+    image: {
+      width: 800,
+      height: 600,
+      alt: "Mixer grinder set",
+      url: "/mixer-grinder-set.jpeg",
     },
   },
   {
@@ -49,6 +145,42 @@ const products = [
       url: "/golden-brass-kadhai-utensil-close-up.jpg",
     },
   },
+  {
+  id: "pressure-cooker",
+  title: "Pressure Cooker",
+  material: "Aluminum",
+  description: "Durable pressure cooker for fast and efficient cooking.",
+  image: {
+    width: 800,
+    height: 600,
+    alt: "Pressure cooker",
+    url: "/pressure-cooker.jpeg",
+  },
+},
+{
+  id: "nonstick-tava",
+  title: "Nonstick Tava",
+  material: "Cast Iron",
+  description: "Nonstick frying pan ideal for low-oil cooking.",
+  image: {
+    width: 800,
+    height: 600,
+    alt: "Nonstick tava",
+    url: "/nonstick-tava.jpeg",
+  },
+},
+{
+  id: "pan-set",
+  title: "Pan Set",
+  material: "Stainless Steel",
+  description: "Multi-piece pan set for versatile kitchen use.",
+  image: {
+    width: 800,
+    height: 600,
+    alt: "Pan set",
+    url: "/pan-set.jpeg",
+  },
+}
   {
     id: "copper-lota",
     title: "Copper Lota",

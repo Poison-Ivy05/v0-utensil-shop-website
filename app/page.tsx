@@ -36,17 +36,32 @@ export default function HomePage() {
       </div>
 
       <div className="relative">
-        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg border">
-          <Image
-            src="/images/img-mama.jpg"
-            alt="Display of golden/brass utensils and decor from the shop’s Instagram gallery"
-            fill
-            sizes="(min-width: 768px) 50vw, 100vw"
-            className="object-cover"
-            priority
-          />
-        </div>
+        <div className="relative w-[400px] h-[400px] mx-auto overflow-hidden rounded-full border border-gray-300 shadow-inner bg-gradient-to-br from-white to-gray-100">
+  <Image
+    src="/images/logo-2.jpg"
+    alt="Display of golden/brass utensils and decor from the shop’s Instagram gallery"
+    fill
+    className="object-cover"
+    priority
+    sizes="100vw"
+  />
+</div>
       </div>
+      <div className="max-w-xl mx-auto">
+  <div className="relative aspect-video rounded-lg border border-gray-300 shadow-inner bg-gradient-to-br from-white to-gray-100 overflow-hidden">
+    <Image
+      src="/images/store-interior.jpg"
+      alt="Display of golden/brass utensils and decor from the shop’s Instagram gallery"
+      fill
+      className="object-cover"
+      priority
+      sizes="100vw"
+    />
+  </div>
+  <p className="mt-4 text-center text-sm text-gray-700">
+    Visit the store or contact us for orders — available in bulk or individual pieces.
+  </p>
+</div>
     </section>
   )
 }

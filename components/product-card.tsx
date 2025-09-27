@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 type Product = {
   id: string
   title: string
-  material: "Brass" | "Copper" | "Steel"
+  material: "Brass" | "Copper" | "Steel" | "Cast Iron" | "Aluminium"
   description: string
   image: { width: number; height: number; alt: string; url: string }
 }
